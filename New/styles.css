@@ -1,0 +1,17 @@
+
+.main{
+    height : 100px;
+    width : 100px;
+    background-color: red;
+    transform: translate(100px, 200px);
+    animation-duration: 3s;
+}
+
+@keyframes identifier {
+    to{
+        transform: translate(100px);
+    }
+    from{
+        transform: translate(100px);
+    }
+}
