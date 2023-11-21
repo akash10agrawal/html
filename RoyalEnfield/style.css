@@ -274,14 +274,127 @@ html{
 
 .footer{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 90px;
     align-items: center;
 
 }
 .images{
     width: 190px;
     line-height: 20px;
+}
+
+/* Styles for the flex container */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for the flex items (headings) */
+.flex-item {
+    /*border: 1px solid #ddd;*/
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    margin: 0 0px; /* Adjust margin as needed */
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the footer */
+.site-footer {
+    background-color: #de0b0b;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-column {
+    width: 30%;
+}
+
+
+.align-start {
+    align-self: start;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin {
+    background: #3540b7;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #df0592;
+    color: white;
+  }
+
+  /* Styles for the paragraph elements in the footer */
+.footer-column p {
+    font-size: 10px; /* Adjust the size of the paragraphs as needed */
+}
+
+/* Styles for the footer */
+.site-footer {
+    background-color: #d6d5d5;
+    color: #000000;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.disclaimer {
+    font-size: 10px;
+    font-style:oblique;
+}
+.footer-nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+.footer-line {
+    border: 1px solid #f50707; /* Adjust the color and style as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
 }
