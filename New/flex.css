@@ -1,0 +1,25 @@
+.main{
+    background-color: yellow;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+}
+
+.box1,.box2,.box3{
+    height: 200px;
+    width: 200px;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: green;
+    /* flex-grow: 1; */
+}

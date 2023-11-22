@@ -3,15 +3,36 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
         <title>My Title</title>
+        <style>
+            .main{
+                height : 100px;
+                width : 100px;
+                background-color: blue;
+            }
+            #check{ 
+                display: none;
+            }
+            #check:checked~.main{
+                background-color: yellow;
+                border-radius: 30px;
+            }
+        </style>
     </head>
 <body>
-    <!-- Page content goes here -->
+    <input type="checkbox" id="check">
 
-    <h1>hello</h1>
     <div class = "main">
-
+        
+        <label for="check">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>click here</h1>
+        </label>
     </div>
 </body>
 </html>
