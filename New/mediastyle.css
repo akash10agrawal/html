@@ -4,7 +4,8 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between;
+    padding: 8px 15px 10px 10px;
 }
 .navbar ul li{
     display: inline;
@@ -12,16 +13,37 @@ body{
 }
 .navbar i{
     display: none;
-
 }
-@media screen and (max-width:750px) {
+#navid{
+    display: none;
+}
+#navid:checked~.navbar ul{
+    display: block;
+}
+.navbar j{
+    display: none;
+}
+@media (max-width:750px) {
     body{
-        background-color: blue;
+        background-color: #fff;
+    }
+    .navbar{
+        height: 80px;
+        background: yellow;
+        
     }
     .navbar i {
         display: block;
     }
     .navbar ul{
-        display: none;
+        /* display: none; */
+        margin-top: 300px;
+        width: 100%;
+        background: blue;
+    }
+    .navbar ul li{
+        display: block;
+        align-items: center;
+        justify-content: center;
     }
 }
