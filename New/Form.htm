@@ -3,17 +3,17 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Form Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <!-- <script src='main.js'></script> -->
 </head>
 <body>
     <h1>Sample Form</h1>
+
     <form action="#" method="post">
         <label for="text">Name:</label>
         <input type="text" id="name" name="name" required>
-        <!-- try type as number -->
         <br>
 
         <label for="password">Password:</label>
@@ -23,7 +23,7 @@
 
         <!-- Gender Radio Buttons -->
         <label>Gender:</label>
-        <label for="male">
+        <label >
             <input type="radio" id="male" name="gender" value="male" required> Male
         </label>
         <label for="female">
@@ -46,13 +46,13 @@
 
         <!-- Message Textarea -->
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <textarea id="message" name="message" rows="14" placeholder="Please Enter Message" ></textarea>
 
         <br>
 
         <!-- Submit Button -->
         <input type="submit" value="Submit">
-        <!-- <button type="button">Click here</button> -->
+        <button type="button">Click here</button>
     </form>
 </body>
 </html>
