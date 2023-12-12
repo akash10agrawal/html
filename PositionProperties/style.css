@@ -4,9 +4,9 @@
     width: 100px; 
     background-color: green; 
     border: 5px solid red; 
-    top: 30px;
+    top: 40px;
     /* margin-top: 30px;  */
-    left: 30px; 
+    left: 40px; 
 } 
 .second{ 
     position: relative; 

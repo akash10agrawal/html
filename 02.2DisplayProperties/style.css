@@ -1,27 +1,28 @@
 *{ font-style: italic; } 
-.back{ 
+/* .back{ 
     display: block;
     background-color: green;
     height: 50px; 
     width:50%; 
-}
+} */
 .back1{ 
     background-color: blue; 
     height: 100px; 
     width:200px; 
+    /* display: inline; */
 } 
-.back2{ 
+/* .back2{ 
     display: inline-block; 
     background-color: pink; 
     height: 100px; 
     width:200px; 
-} 
-.back3{ 
+}  */
+/* .back3{ 
     display: inline;
     background-color: yellow; 
     height: 100px; 
     width:200%; 
-} 
+}  */
 /* .first{ 
     /* background-image: url('/02.2DisplayProperties/first.jpg');  
     background-repeat: repeat-x; 

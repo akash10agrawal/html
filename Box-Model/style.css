@@ -4,8 +4,9 @@
     background-color: lightgreen; 
     border: 5px solid green; 
     margin: 40px; 
-    padding: 40px; 
-    border-radius: 50px;
+    padding: 0px; 
+    border-radius: 0px;
+    border-bottom-right-radius: 20px;
 } 
 .second{ 
     height: 150px; 
