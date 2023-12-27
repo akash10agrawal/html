@@ -47,18 +47,16 @@
       #menuToggle:checked + ul {
         display: flex;
       }
+
+      .burger-icon {
+        display: block; /* Show the burger icon on smaller screens */
+      }
     }
 
     /* Burger icon styles */
     .burger-icon {
       cursor: pointer;
       display: none; /* Hide the burger icon by default on larger screens */
-    }
-
-    @media screen and (max-width: 768px) {
-      .burger-icon {
-        display: block; /* Show the burger icon on smaller screens */
-      }
     }
 
     /* Hide the checkbox visually */
@@ -71,7 +69,6 @@
       content: '\2630'; /* Unicode character for the hamburger icon */
       font-size: 24px;
     }
-
   </style>
 </head>
 <body>
