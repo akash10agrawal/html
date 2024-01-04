@@ -12,7 +12,7 @@
     width: 400px; 
     background-color: yellow; 
     border: 5px solid grey; 
-    z-index: 5; 
+    z-index: -5; 
 } 
 .third{ 
     position:sticky; 
@@ -20,5 +20,5 @@
     width: 100px; 
     background-color: violet; 
     border:5px solid pink; 
-    z-index: -10; 
+    z-index: 10; 
 }
